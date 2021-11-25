@@ -1,67 +1,284 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Резюме</title>
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/style.css">
+  <title>CV/Dmitry S.P.</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/images/favicon.png">
+  <link
+          href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic'
+          rel='stylesheet' type='text/css'>
+  <!-- Global CSS -->
+  <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+  <!-- Plugins CSS -->
+  <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+  <!-- Theme CSS -->
+  <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <style>
+    .myimgdivtoggle {
+      display: none;
+    }
+  </style>
 </head>
+
 <body>
-<div>
-  <h1>Резюме</h1>
-  <img src="01.jpg" width="170" height="200" alt="Фото">
+<div class="wrapper">
+  <div class="sidebar-wrapper">
+    <div class="profile-container">
+      <img class="profile" src="assets/images/profile.jpg" alt="Максим"/>
+      <h1 class="name">Дмитрий Пилявский</h1>
+      <h3 class="tagline">Ruby on Rails разработчик</h3>
+    </div><!--//profile-container-->
+
+    <div class="contact-container container-block">
+      <ul class="list-unstyled contact-list">
+        <li class="email"><i class="fa fa-envelope"></i><a
+                href="mailto:maxim.axinenko@gmail.com">saw.coding@gmail.com</a></li>
+        <li class="phone"><i class="fa fa-phone"></i><a
+                href="tel:+79967929769">+79967929769</a></li>
+        <li class="phone"><i class="fa fa-paper-plane"></i><a
+                href="https://t.me/DimOkSPB1986">Telegram</a></li>
+        <li class="linkedin"><i class="fa fa-linkedin"></i><a
+                href="https://www.linkedin.com/in/dmitry-pilavskiy-996496225/" target="_blank">linkedin</a>
+        </li>
+        <li class="github"><i class="fa fa-github"></i><a
+                href="https://github.com/saw-code" target="_blank">github.com/saw-code</a></li>
+      </ul>
+    </div><!--//contact-container-->
+
+    <div class="about-job-container container-block">
+      <h2 class="container-block-title">О работе</h2>
+      <div class="item">
+        <div><h4 class="job-option">В поиске:</h4><span class="meta"> Да</span></div>
+        <div><h4 class="job-option">Занятость:</h4><span class="meta"> fulltime</span></div>
+        <div><h4 class="job-option">Релокация:</h4><span class="meta"> Пока нет</span></div>
+        <div><h4 class="job-option">Удалённая работа:</h4><span class="meta"> Да</span></div>
+      </div>
+    </div><!--//about-job-container-->
+    <div class="education-container container-block">
+      <h2 class="container-block-title">Образование</h2>
+      <div class="item">
+        <h4 class="study-place">Курсы:</h4>
+        <h5 class="meta">GoodProgrammer.ru</h5>
+        <h5 class="meta">(интенсив по Ruby on Rails,</h5>
+        <h5 class="meta"> - 5меc.)</h5>
+        <div class="time">(2021)</div>
+      </div><!--//item-->
+      <div class="item">
+        <h4 class="study-place">Санкт-Петербургский институт внешнеэкономических связей, экономики и права</h4>
+        <h5 class="meta">менеджмент</h5>
+        <div class="time">(2008)</div>
+      </div>
+    </div><!--//education-container-->
+    <div class="languages-container container-block">
+      <h2 class="container-block-title">Языки</h2>
+      <ul class="list-unstyled interests-list">
+        <li>English <span class="lang-desc">Intermediate (B1)</span></li>
+      </ul>
+    </div><!--//interests-->
+    <div class="interests-container container-block">
+      <h2 class="container-block-title">Интересы</h2>
+      <ul class="list-unstyled interests-list">
+        <li>Веб-программирование</li>
+        <li>Гитара</li>
+        <li>Мирмекология</li>
+      </ul>
+    </div><!--//interests-->
+  </div><!--//sidebar-wrapper-->
+
+  <div class="main-wrapper">
+    <section class="section summary-section">
+      <h2 class="section-title"><i class="fa fa-user"></i>О себе:</h2>
+      <div class="summary">
+        <p>
+          Привет, меня зовут Дмитрий, я начинающий <span class="ruby">Ruby on Rails</span> разработчик. Сменил
+          деятельность
+          (бизнес-управление) и сместился в интересную мне область.
+          Пока не располагаю здесь большим опытом, но нахожусь в процессе его приобретения:
+        </p>
+        <p>
+          Успешно прошёл мощный пятимесячный интенсив по <span class="ruby">Ruby on Rails</span>
+          от <a href="https://goodprogrammer.ru/">GoodProgrammer.ru</a>
+        </p>
+        <div class="myimgdivtoggle">
+          <img src="assets/images/profile.jpg" alt="display image on button click"
+               class="img-responsive img-thumbnail"/>
+        </div>
+        <p>
+          Во время обучения на курсе научился мыслить как веб-разработчик, создавать новые RoR проекты и
+          вносить новую функциональность в существующие, улучшил навыки поиска информации.
+        </p>
+        <p>
+          Мне нравится что используя упомянутые технологии и некоторые знания из смежных областей, можно
+          в обозримые сроки создать полноценный продукт. Планирую и дальше активно наращивать навыки в этом
+          направлении.
+        </p>
+        <p>
+          Некоторые применимые личные качества, развившиеся в период прежней деятельности:
+        <ul>
+          <li class="">ответственность, умение работать и взаимодействовать в команде; стремление качественно выполнить
+            свою роль;
+          </li>
+          <li class="">выраженная потребность в успешном выполнении полученной задачи;</li>
+          <li class="">положительно отношусь к замечаниям, с интересом — ко всему новому</li>
+        </ul>
+        </p>
+
+        <p>1986 г.р., Россия, г.Санкт-Петербург</p>
+      </div><!--//summary-->
+    </section><!--//section-->
+
+    <section class="section experiences-section">
+      <h2 class="section-title"><i class="fa fa-laptop"></i>Релевантный опыт</h2>
+      <div class="details">
+        <h4>[январь 2021г - настоящее время]</h4>
+        <p>
+          В период обучения на курсе от GoodProgrammer получил опыт работы со следующими
+          технологиями и инструментами:
+        </p>
+        <h3 class="technology">Ruby, Ruby on Rails</h3>
+        <p>
+          Создание Ruby-приложений с соблюдением принципов ООП. Разработка c использованием
+          фреймворка Ruby on Rails (REST, MVC). Дебаг и отладка с помощью irb и byebug
+        </p>
+        <h3 class="technology">Тестирование с RSpec</h3>
+        <p>
+          Писал тесты, понимаю для чего нужны, особенно в
+          сложных системах, при внедрении новых функциональностей
+        </p>
+        <h3 class="technology">Парсинг веб-сайтов с Nokogiri, OpenURI</h3>
+        <p>
+        </p>
+        <h3 class="technology">Отправка почты с Mailjet</h3>
+        <p>
+        </p>
+        <h3 class="technology">Локализация приложения с i18n</h3>
+        <p>
+        </p>
+        <h3 class="technology">Фронтенд: HTML, CSS, JS, Bootstrap, Webpack</h3>
+        <p>
+        </p>
+        <h3 class="technology">Работа с базами данных: SQLite, PostgreSQL</h3>
+        <p>
+        </p>
+        <h3 class="technology"> Развертывание приложений на Heroku, Amazon web services(EC2) </h3>
+        <p>
+        </p>
+        <h3 class="technology">Git, GitHub </h3>
+        <p>
+        </p>
+        <h3 class="technology">RVM, Bundler </h3>
+        <p>
+        </p>
+      </div><!--//details-->
+    </section><!--//section-->
+
+    <section class="section projects-section">
+      <h2 class="section-title"><i class="fa fa-archive"></i>Проекты</h2>
+      <div class="intro">
+        <p>Несколько моих учебных проектов, для примера:</p>
+        <p class="remark">&ltRuby-on-Rails&gt</p>
+      </div><!--//intro-->
+      <div class="item">
+        <span class="project-title"><b>Barbecue (Шашлыки): </b><a href="https://needbbq.herokuapp.com//" target="_blank">needbbq.herokuapp.com</a> /
+            <a href="https://github.com/saw-code/bbq" target="_blank">github</a></span>
+        -
+        <span class="project-tagline">веб-приложение помогающее организовать совместный отдых с друзьями. Обладает достаточно
+            большой функциональностью: Каждый пользователь после регистрациии может стать участником системы, после чего
+            может создавать событие - с указанием адреса и времени его начала.
+        </span>
+      </div><!--//item-->
+      <div class="item">
+        <span class="project-title"><b>Askme (TheQuestioned): </b><a href="https://coolquestions.herokuapp.com/"
+                                                                     target="_blank">coolquestions.herokuapp.com</a> /
+            <a href="https://github.com/saw-code/askme"
+               target="_blank">github</a></span>
+        -
+        <span class="project-tagline">веб-приложение для обмена вопросами и ответами.(Для загрузки нужно подождать
+            из-за особенности хостинга). В приложении реализованы: регистрация пользователя, возможность задать вопрос
+            зарегистрированным пользователям, редактирование профиля
+          </span>
+      </div><!--//item-->
+      <div class="intro">
+        <p class="remark">&ltRuby&gt</p>
+      </div><!--//item-->
+      <div class="item">
+        <span class="project-title"><a href="https://github.com/saw-code/hangman"
+                                       target="_blank">Hangman (github)</a></span>
+        -
+        <span class="project-tagline"> Консольная мини - игра, с
+            оптимистичным названием =) Пользователю нужно угадать слово по буквам, ошибившись
+            не более 6 раз.
+        </span>
+      </div><!--//item-->
+      <div class="item">
+        <span class="project-title"><a
+                href="https://github.com/saw-code/parse_films_from_wiki"
+                target="_blank">What-to-watch (github)</a></span>
+        -
+        <span class="project-tagline"> CLI-приложение, которое может помочь
+            определиться с фильмом на вечер.
+        </span>
+      </div><!--//item-->
+    </section><!--//section-->
+
+    <section class="skills-section section">
+      <h2 class="section-title"><i class="fa fa-rocket"></i>Навыки</h2>
+      <div class="skillset">
+        <div class="item">
+          <h3 class="level-title">Ruby</h3>
+          <div class="level-bar">
+            <div class="level-bar-inner" data-level="70%">
+            </div>
+          </div><!--//level-bar-->
+        </div>
+        <div class="item">
+          <h3 class="level-title">Ruby on Rails</h3>
+          <div class="level-bar">
+            <div class="level-bar-inner" data-level="60%">
+            </div>
+          </div><!--//level-bar-->
+        </div><!--//item-->
+        <div class="item">
+          <h3 class="level-title">HTML5</h3>
+          <div class="level-bar">
+            <div class="level-bar-inner" data-level="50%">
+            </div>
+          </div><!--//level-bar-->
+        </div><!--//item-->
+        <div class="item">
+          <h3 class="level-title">CSS, Bootstrap</h3>
+          <div class="level-bar">
+            <div class="level-bar-inner" data-level="45%">
+            </div>
+          </div><!--//level-bar-->
+        </div><!--//item-->
+        <div class="item">
+          <h3 class="level-title">Javascript</h3>
+          <div class="level-bar">
+            <div class="level-bar-inner" data-level="25%">
+            </div>
+          </div><!--//level-bar-->
+        </div><!--//item-->
+      </div>
+    </section><!--//skills-section-->
+  </div><!--//main-body-->
 </div>
-<div>
-  <h2>Основная информация</h2>
-  <ul>
-    <li>Имя: <b>Пилявский Дмитрий Сергеевич</b></li>
-    <li>Возраст: 35</li>
-    <li>Пол: <b>мужской</b></li>
-    <li>Семейное положение: <b>холост</b></li>
-    <li>Город: <b>Санкт-Петербург</b></li>
-    <li>Институт: <b>ИВЭСЭП</b>
-      <p>год обучения: 2003-2008</p></li>
-  </ul>
-</div>
-<div>
-  <h2>Опыт работы</h2>
-  <ul>
-    <li>Год: 2012-2021
-      <p>Место: <b>ООО &laquo;ИБ&raquo;</b></p>
-      <p>Должность: <b>Исполнительный директор</b></p></li>
-    <li>Год: 2011-2012
-      <p>Место: <b>ООО &laquo;ИГЛ&raquo;</b></p>
-      <p>Должность: <b>Менеджер по таможенному оформлению</b></p></li>
-    <li>Год: 2010-2011
-      <p>Место: <b>ООО &laquo;Элит-Транс&raquo;</b></p>
-      <p>Должность: <b>Специалист по таможенному сопровождению</b></p></li>
-    <li>Год: 2009-2010
-      <p> Место: <b>ЗАО &laquo;Конкорд&raquo;</b></p>
-      <p>Должность: <b>Диспетчер СВХ</b></p></li>
-  </ul>
-</div>
-<div>
-  <h2>Навыки</h2>
-  <ul>
-    <li><b>Английский язык</b>
-      <p>уровень: Intermediate</p></li>
-    <li><b>Программирование</b>
-      <p>- Ruby, Ruby on Rails</p>
-      <p>- RSpec</p>
-      <p>- Git</p>
-      <p>- JS, HTML, CSS<br></p>
-      <p>- БД SQLite<br></p>
-      <p>- Linux(Ubuntu)</p>
-    </li>
-  </ul>
-</div>
-<div>
-  <h2>Хобби</h2>
-  <ul>
-    <li><b>Гитара</b></li>
-    <li><b>Мирмекология</b></li>
-  </ul>
-</div>
+
+<footer class="footer">
+  <div class="text-center">
+    <p class="fin"><i class="fa fa-diamond"></i> 2021г </p>
+  </div><!--//container-->
+</footer><!--//footer-->
+
+<!-- Javascript -->
+<script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
+<script type="text/javascript"
+        src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- custom js -->
+<script type="text/javascript" src="assets/js/main.js"></script>
+<script type="text/javascript" src="assets/js/show_pic.js"></script>
 </body>
 </html>
